@@ -2,7 +2,6 @@ import React from 'react';
 import Store from './Store';
 
 class CounterStore extends Store{
-
   constructor(props){
     super(props);
     this.state = 0;
